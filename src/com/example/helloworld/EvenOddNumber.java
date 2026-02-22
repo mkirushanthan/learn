@@ -12,6 +12,7 @@ public class EvenOddNumber {
 
 class Demo{
     public boolean findEvenorOdd(int i){
+        // this a comment
         if(i%2 == 0){
             return true;
         }else{
