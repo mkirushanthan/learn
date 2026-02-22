@@ -2,20 +2,20 @@ package com.example.helloworld;
 
 public class EvenOddNumber {
     public static void main(String[] args) {
-        Demo obj=new Demo();
+        Demo obj = new Demo();
 
-        boolean result=obj.findEvenorOdd(2);
+        boolean result = obj.findEvenorOdd(2);
 
         System.out.println(result);
     }
 }
 
 class Demo{
-    public boolean findEvenorOdd(int i){
+    public boolean findEvenorOdd(int i) {
         // this a comment
-        if(i%2 == 0){
+        if ( i % 2 == 0 ) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
